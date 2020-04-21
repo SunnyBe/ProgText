@@ -10,4 +10,5 @@ class ProgText @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 
+
 }
