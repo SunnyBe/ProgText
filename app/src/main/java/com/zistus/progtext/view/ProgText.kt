@@ -4,7 +4,6 @@ import android.content.Context
 import android.graphics.Canvas
 import android.util.AttributeSet
 import android.view.View
-import androidx.appcompat.widget.AppCompatTextView
 
 /**
  * Build by ndusunday@gmail.com
@@ -19,6 +18,12 @@ class ProgText @JvmOverloads constructor(
 
     init {
 
+    }
+
+
+    // Handle Rendering contract between this component(ProgText) and the container i.e ViewGroup housing the (ProgText)
+    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec)
     }
 
     override fun onDraw(canvas: Canvas?) {

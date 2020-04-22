@@ -7,6 +7,8 @@
 This library and renders the specified text with an animated ball bouncing on each character of the specified text. Default for unspecified text is **Please Wait**.
 It's extremely fast, feature-rich and extensible.
 
+ProgText was built using proper instruction as specified in the Android Studio Documentation [mark-custom-component]
+
 ## Setup
 Add ProgText to your build.gradle dependencies 
 ```kotlin
@@ -15,3 +17,4 @@ implementation 'com.github.progText.View:library:LATEST-VERSION'
 
 [commonmark-kotlin]: https://kotlinlang.org/docs/reference/
 [commonmark-xml]: https://developer.android.com/guide/topics/ui/declaring-layout#write
+[mark-custom-component]: https://developer.android.com/guide/topics/ui/custom-components
