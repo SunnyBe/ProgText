@@ -1,8 +1,10 @@
 package com.zistus.progtext.view
 
 import android.content.Context
+import android.graphics.Canvas
 import android.util.AttributeSet
 import android.view.View
+import androidx.appcompat.widget.AppCompatTextView
 
 /**
  * Build by ndusunday@gmail.com
@@ -15,5 +17,12 @@ class ProgText @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 
+    init {
+
+    }
+
+    override fun onDraw(canvas: Canvas?) {
+        super.onDraw(canvas)
+    }
 
 }
