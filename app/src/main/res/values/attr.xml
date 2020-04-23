@@ -2,8 +2,11 @@
 
 <resources>
     <declare-styleable name="ProgText">
-        <attr name="textColor" format="color" />
         <attr name="text" format="string" />
-        <attr name="textSpacing" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSpacing" format="integer" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="progTextSize" format="dimension"/>
     </declare-styleable>
 </resources>
